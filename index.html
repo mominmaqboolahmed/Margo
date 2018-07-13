@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Margo</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<header>
+  		<nav class="navbar navbar-default navbar-fixed-top  my-header">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt=""></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>
+              <ul class="dropdown-menu">
+                <input type="text" placeholder="something">
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  	</header>
+  	<div class="slider1">
+  		<div id="first-slider">
+    <div id="carousel-example-generic" class="carousel slide carousel-fade">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <!-- Item 1 -->
+            <div class="item active slide1" style="height: 600px;">
+                <div class="row"><div class="container">
+                    <div class="col-md-3 text-right">
+                        <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png">
+                    </div>
+                    <div class="col-md-9 text-left">
+                        <h3 data-animation="animated bounceInDown">Add images, or even your logo!</h3>
+                        <h4 data-animation="animated bounceInUp">Easily use stunning effects</h4>             
+                     </div>
+                </div></div>
+             </div> 
+            <!-- Item 2 -->
+            <div class="item slide2" style="height: 600px;">
+                <div class="row"><div class="container">
+                    <div class="col-md-7 text-left">
+                        <h3 data-animation="animated bounceInDown"> 50 animation options A beautiful</h3>
+                        <h4 data-animation="animated bounceInUp">Create beautiful slideshows </h4>
+                     </div>
+                    <div class="col-md-5 text-right">
+                        <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/sp11uneml/rack_server_unlock.png">
+                    </div>
+                </div></div>
+            </div>
+            <!-- Item 3 -->
+            <div class="item slide3" style="height: 600px;">
+                <div class="row"><div class="container">
+                    <div class="col-md-7 text-left">
+                        <h3 data-animation="animated bounceInDown">Simple Bootstrap Carousel</h3>
+                        <h4 data-animation="animated bounceInUp">Bootstrap Image Carousel Slider with Animate.css</h4>
+                     </div>
+                    <div class="col-md-5 text-right">
+                        <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/eq8xvxeq5/globe_network.png">
+                    </div>     
+                </div></div>
+            </div>
+            <!-- Item 4 -->
+            <div class="item slide4" style="height: 600px;">
+                <div class="row"><div class="container">
+                    <div class="col-md-7 text-left">
+                        <h3 data-animation="animated bounceInDown">We are creative</h3>
+                        <h4 data-animation="animated bounceInUp">Get start your next awesome project</h4>
+                     </div>
+                    <div class="col-md-5 text-right">
+                        <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/9vf8xngel/internet_speed.png">
+                    </div>  
+                </div></div>
+            </div>
+            <!-- End Item 4 -->
+    
+        </div>
+        <!-- End Wrapper for slides-->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <i class="fa fa-angle-left"></i><span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <i class="fa fa-angle-right"></i><span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+  	</div>
+    <div class="container">
+      <div class="row">
+        <section>
+          <div class="area">
+            <div class="col-sm-6 col-md-3">
+              <img src="img/1.jpg" alt="" />
+              <h2>Ultimate Multi-purpose</h2>
+              <p>Nemo enim ipsam voluptatem quia volupats sit aspernatur aut odit aut figit, sed quia dolores.</p>
+            </div>
+          </div>
+          <div class="area">
+            <div class="col-sm-6 col-md-3">
+              <img src="img/2.jpg" alt="" />
+              <h2>50+ Pages and Short-Codes</h2>
+              <p>Nemo enim ipsam voluptatem quia volupats sit aspernatur aut odit aut figit, sed quia dolores.</p>
+            </div>
+          </div>
+          <div class="area">
+            <div class="col-sm-6 col-md-3">
+              <img src="img/3.jpg" alt="" />
+              <h2>Rich Theme-Options</h2>
+              <p>Nemo enim ipsam voluptatem quia volupats sit aspernatur aut odit aut figit, sed quia dolores.</p>
+            </div>
+          </div>
+          <div class="area">
+            <div class="col-sm-6 col-md-3">
+              <img src="img/4.jpg" alt="" />
+              <h2>Clean and Professional Design</h2>
+              <p>Nemo enim ipsam voluptatem quia volupats sit aspernatur aut odit aut figit, sed quia dolores.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="banner-txt">
+        <h3>A MULTI-PURPOSE WORDPRESS THEME<BR> WITH LIMITLESS POSSIBILITIES</h3>
+        <button class="btn btn-success"><i class="fa fa-bars"></i> CHECK OUT FEATURES</button>
+        <button class="btn btn-success" style="background-color:white; color: #94c766;"><i class="fa fa-download"></i>PURCHASE THIS NOW</button>
+      </div>
+    </div>
+    <div class="txt-area">
+      <h2>WHAT WE DO</h2>
+      <p>Discover someting more every day</p>
+      <div class="bdr-btm"></div>
+    </div>
+    <div class="buttons">
+        <button class="btn btn-success first">ALL</button>
+        <button class="btn btn-success">BRANDING</button>
+        <button class="btn btn-success">MARKETING</button>
+        <button class="btn btn-success">PLANNING</button>
+        <button class="btn btn-success">RESEARCH</button>
+    </div>
+    <div class="containe-fliud">
+      <div class="col-md-3 padding">
+        <div class="images clearfix">
+          <img src="img/-1.gif" alt="">
+          <span>caption</span>
+        </div>
+      </div>
+      <div class="col-md-3 padding">
+        <div class="images clearfix">
+          <img src="img/-2.gif" alt="">
+          <span>caption</span>
+        </div>
+      </div>
+      <div class="col-md-3 padding">
+        <div class="images clearfix">
+          <img src="img/-3.gif" alt="">
+          <span>caption</span>
+        </div>
+      </div>
+      <div class="col-md-3 padding">
+        <div class="images clearfix">
+          <img src="img/-4.gif" alt="">
+          <span>caption</span>
+        </div>
+      </div>
+      <div class="col-md-3 padding">
+        <div class="images clearfix">
+          <img src="img/-5.gif" alt="">
+          <span>caption</span>
+        </div>
+      </div>
+      <div class="col-md-3 padding">
+        <div class="images clearfix">
+          <img src="img/-6.gif" alt="">
+          <span>caption</span>
+        </div>
+      </div>
+      <div class="col-md-3 padding">
+        <div class="images clearfix">
+          <img src="img/-7.gif" alt="">
+          <span>caption</span>
+        </div>
+      </div>
+      <div class="col-md-3 padding">
+        <div class="images clearfix">
+          <img src="img/-8.gif" alt="">
+          <span>caption</span>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 padding-lf">
+          <div class="blog-lf">
+            <div class="blog-tp clearfix">
+              <h2 class="pull-left">FROM THE BLOG</h2>
+              <ul class="pull-right">
+                <li><i class="fa fa-angle-left"></i></li>
+                <li><i class="fa fa-angle-right"></i></li>
+              </ul>
+            </div>
+            <div class="bdr-lf"></div>
+            <div class="col-md-6 padding">
+              <div class="blog-1">
+                <div class="icon pull-left">
+                  <p>5<br> <span>APR</span></p>
+                  <i class="fa fa-file"></i>
+                </div>
+                <div class="icon-work">
+                  <h3>Starting a Business Guide</h3>
+                  <p>Lorem Ipsum is simplt dummp text of the printing <br>and typesetting industry. Lorem Ipsum has been <br>the industrys standard dummy text ever since the<br> 1500s, when and unknown printer took a galley of type and<br> scaranbled it to make a...<a>Read More <i class="fa fa-angle-right"></i></a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 padding">
+              <div class="blog-2">
+                <div class="icon pull-left">
+                  <p>5<br> <span>APR</span></p>
+                  <i class="fa fa-file"></i>
+                </div>
+                <div class="icon-work">
+                  <h3>Plan for what is difficult</h3>
+                  <p>Lorem Ipsum is simplt dumm p text of the printing <br>and typesetting industry. Lorem Ipsum has been <br>the industrys standard dummy text ever since the<br> 1500s, when and unknown printer took a galley of type and<br> scaranbled it to make a...<a>Read More <i class="fa fa-angle-right"></i></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 padding-rt">
+          <div class="blog-rt">
+            <div class="blog-tp clearfix">
+              <h2 class="pull-left">WHAT PEOPLE SAYS</h2>
+              <ul class="pull-right">
+                <li><i class="fa fa-angle-left"></i></li>
+                <li><i class="fa fa-angle-right"></i></li>
+              </ul>
+            </div>
+            <div class="bdr-rt"></div>
+            <div class="blog-3">
+              <p>Exceoteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+              <h1>Edith E. Chamberlain - <span>wordpress</span></h1>
+          </div>
+        </div>
+      </div>
+        <div class="txt-area">
+          <h2>HERE WE ARE</h2>
+          <p>Passionate about perfection</p>
+        <div class="bdr-btm"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="perfom">
+            <img src="img/ceo.gif" alt="" />
+              <span>CEO</span>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>
+            <h5>WordPress</h5>
+            <hr class="bg-1">
+            <h5>PHP</h5>
+            <hr class="bg-2">
+            <h5>jQuery</h5>
+            <hr class="bg-3">
+            <h5>WooCommerce</h5>
+            <hr class="bg-4">
+            <div class="social-icon">
+              <ul>
+                <li><i class="fa fa-facebook"></i></li>
+                <li><i class="fa fa-twitter"></i></li>
+                <li><i class="fa fa-linkedin"></i></li>
+                <li><i class="fa fa-flickr"></i></li>
+                <li><i class="fa fa-instagram"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="perfom">
+            <img src="img/men-1.jpg" alt="" />
+            <div class="name">
+              <span>CTO</span>
+            </div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>
+            <h5>WordPress</h5>
+            <hr class="bg-1">
+            <h5>PHP</h5>
+            <hr class="bg-2">
+            <h5>jQuery</h5>
+            <hr class="bg-3">
+            <h5>WooCommerce</h5>
+            <hr class="bg-4">
+            <div class="social-icon">
+              <ul>
+                <li><i class="fa fa-facebook"></i></li>
+                <li><i class="fa fa-twitter"></i></li>
+                <li><i class="fa fa-linkedin"></i></li>
+                <li><i class="fa fa-flickr"></i></li>
+                <li><i class="fa fa-instagram"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="perfom">
+            <img src="img/developer.png" alt="" />
+            <div class="name">
+              <span>Developer</span>
+            </div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>
+            <h5>WordPress</h5>
+            <hr class="bg-1">
+            <h5>PHP</h5>
+            <hr class="bg-2">
+            <h5>jQuery</h5>
+            <hr class="bg-3">
+            <h5>WooCommerce</h5>
+            <hr class="bg-4">
+            <div class="social-icon">
+              <ul>
+                <li><i class="fa fa-facebook"></i></li>
+                <li><i class="fa fa-twitter"></i></li>
+                <li><i class="fa fa-linkedin"></i></li>
+                <li><i class="fa fa-flickr"></i></li>
+                <li><i class="fa fa-instagram"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="perfom">
+            <img src="img/My.gif" alt="" />
+            <div class="name">
+              <span>Designer</span>
+            </div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>
+            <h5>WordPress</h5>
+            <hr class="bg-1">
+            <h5>PHP</h5>
+            <hr class="bg-2">
+            <h5>jQuery</h5>
+            <hr class="bg-3">
+            <h5>WooCommerce</h5>
+            <hr class="bg-4">
+            <div class="social-icon">
+              <ul>
+                <li><i class="fa fa-facebook"></i></li>
+                <li><i class="fa fa-twitter"></i></li>
+                <li><i class="fa fa-linkedin"></i></li>
+                <li><i class="fa fa-flickr"></i></li>
+                <li><i class="fa fa-instagram"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="banner-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="banner-txt-2">
+              <i class="fa fa-thumbs-o-up fa-4x"></i>
+              <h2>9591</h2>
+              <p>PROJECT DONE</p>
+            </div>   
+          </div>
+          <div class="col-md-3">
+            <div class="banner-txt-2">
+              <i class="fa fa-heart-o fa-4x"></i>
+              <h2>564</h2>
+              <p>HAPPY CLIENTS</p>
+            </div> 
+          </div>
+          <div class="col-md-3">
+            <div class="banner-txt-2">
+              <i class="fa fa-thumbs-o-up fa-4x"></i>
+              <h2>187</h2>
+              <p>PRODUCTS WE LAUNCHED</p>
+            </div> 
+          </div>  
+          <div class="col-md-3">   
+            <div class="banner-txt-2">
+              <i class="fa fa-user-o fa-4x"></i>
+              <h2>13</h2>
+              <p>TEAM MEMBERS</p>
+            </div>           
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="txt-area">
+      <h2>WHAT WE DO</h2>
+      <p>Discover someting more every day</p>
+      <div class="bdr-btm"></div>
+    </div>
+    <div class="slider">
+    	<style>
+        /* jssor slider loading skin spin css */
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:100px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/001.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/002.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/003.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/004.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/009.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/010.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/019.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/020.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/021.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/022.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/024.jpg" />
+            </div>
+        </div>
+    </div>
+    </div>
+    <style>
+        /* jssor slider loading skin spin css */
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:100px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/001.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/002.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/003.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/004.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/009.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/010.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/019.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/020.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/021.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/022.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/024.jpg" />
+            </div>
+        </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="foot-area-1">
+              <div class="foot-bdr">
+              <h2>OVERVIEW</h2>
+              </div>
+              <p>Try our Demo</p>
+              <hr class="foot">
+              <p>Our Team</p>
+              <hr class="foot">
+              <p>Journal</p>
+              <hr class="foot">
+              <p>Histry</p>
+              <hr class="foot">
+              <p>Support Forum</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="foot-area-1">
+              <div class="foot-bdr">
+              <h2>RESOURCES</h2>
+              </div>
+              <p>Success Stories</p>
+              <hr class="foot">
+              <p>Integration</p>
+              <hr class="foot">
+              <p>Partners </p>
+              <hr class="foot">
+              <p>User Centered</p>
+              <hr class="foot">
+              <p>Knowledge Base</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="foot-area-1">
+              <div class="foot-bdr">
+              <h2>OTHER</h2>
+              </div>
+              <p>System status</p>
+              <hr class="foot">
+              <p>Security and Compliance</p>
+              <hr class="foot">
+              <p>Term of Service</p>
+              <hr class="foot">
+              <p>Privacy Policy</p>
+              <hr class="foot">
+              <p>DMCA Notice</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="foot-area-1">
+              <div class="foot-bdr">
+              <h2>INSTAGRAM</h2>
+              </div>
+              <ul>
+                <li><img src="img/f-1.gif" alt=""></li>
+                <li><img src="img/f-2.gif" alt=""></li>
+                <li><img src="img/f-3.gif" alt=""></li>
+                <li><img src="img/f-4.gif" alt=""></li>
+                <li><img src="img/f-5.gif" alt=""></li>
+                <li><img src="img/f-6.gif" alt=""></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="last-foot">
+          <span>&copy; 2017 Margo. All right reserved.</span>
+          <ul>
+            <li><a href="#">TOS</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Branding</a></li>
+            <li><a href="#">Journals</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jssor.slider-26.3.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $Idle: 0,
+              $SlideDuration: 5000,
+              $SlideEasing: $Jease$.$Linear,
+              $PauseOnHover: 4,
+              $SlideWidth: 140,
+              $Cols: 7,
+              $Align: 0
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        });
+    </script>
+    <script>
+    	(function( $ ) {
+
+    //Function to animate slider captions 
+    function doAnimations( elems ) {
+		//Cache the animationend event in a variable
+		var animEndEv = 'webkitAnimationEnd animationend';
+		
+		elems.each(function () {
+			var $this = $(this),
+				$animationType = $this.data('animation');
+			$this.addClass($animationType).one(animEndEv, function () {
+				$this.removeClass($animationType);
+			});
+		});
+	}
+	
+	//Variables on page load 
+	var $myCarousel = $('#carousel-example-generic'),
+		$firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
+		
+	//Initialize carousel 
+	$myCarousel.carousel();
+	
+	//Animate captions in first slide on page load 
+	doAnimations($firstAnimatingElems);
+	
+	//Pause carousel  
+	$myCarousel.carousel('pause');
+	
+	
+	//Other slides to be animated on carousel slide event 
+	$myCarousel.on('slide.bs.carousel', function (e) {
+		var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
+		doAnimations($animatingElems);
+	});  
+    $('#carousel-example-generic').carousel({
+        interval:3000,
+        pause: "false"
+    });
+    </script>
+  </body>
+</html>
